@@ -14,8 +14,22 @@ jobs:
         docs-folder: "."
         pre-build-command: "pip install sphinxcontrib-plantuml sphinx_rtd_theme && make clean"
         build-command: "make html"
+    - uses: actions/upload-artifact@v1
+      with:
+        name: Documentation
+        path: _build/html/
+    - name: Commit documentations to gh-pages
+      run: |
+        git clone https://jayaregalinada/flexisourceit-recruitment-docs.git --branch gh-pages --single-branch gh-pages
+        cp -r docs/_build/html/* gh-pages/
+        cd gh-pages
+        git config --local user.email "actions@github.com"
+        git config --local user.name "Github Actions"
+        git add .
+        git commit -m "Updated documentation" -a || true
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages
+        directory: gh-pages
+        github_token: ${{ secrets.ACCESS_TOKEN }}
