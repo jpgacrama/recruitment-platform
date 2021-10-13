@@ -10,8 +10,30 @@ Abstract:
 
     The Recruitment Tool will serve as a Database of the Recruitment Team for a long-term use.
     This is to manage the current and previous pool of candidates for different roles.
-    The purposes of this tool are storing data/details of the Applicants, editing, and updating candidates’ profile,
-    retrieving of profiles, and  validating applicants’ history.
+    The purposes of this tool are storing data/details of the :term:`applicants<Applicants>`, editing, and updating :term:`candidates<Candidates>`’ profile,
+    retrieving of profiles, and  validating :term:`applicants<Applicants>`’ history.
+
+Recruitment Interview:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    :term:`Applicants` will be interviewed by Recuiters, and in the future, by clients. Their interview statuses will be saved in
+    the database associated with this tool.
+
+Interview Sheet:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    This will contain notes which Recruiters have noted as the candidates' interviews are in progress.
+
+Architecture Diagram:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: ArchitectureDiagram.jpeg
+   :alt: Architecture Diagram
+
+Wireframes:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Wireframe information will be determined soon
 
 UI:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,14 +59,3 @@ UI:
 
 .. image:: SampleUI.png
    :alt: Sample UI
-
-
-Wireframes:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    Wireframe information will be determined soon.
-
-Notes and Issues:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    None
