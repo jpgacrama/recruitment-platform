@@ -11,6 +11,7 @@ jobs:
     - name: Build and Commit
       uses: ammaraskar/sphinx-action@master
       with:
+        docs_folder: "."
         pre-build-command: "pip install sphinxcontrib-plantuml sphinx_rtd_theme && make clean"
         build-command: "make html"
     - name: Push changes
