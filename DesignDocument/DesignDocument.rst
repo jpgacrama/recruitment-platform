@@ -8,16 +8,16 @@ Design Document
 Abstract:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    The Recruitment Tool will serve as a Database of the Recruitment Team for a long-term use.
+    The :term:`Recruitment Tool` will serve as a :term:`Database` of the Recruitment Team for a long-term use.
     This is to manage the current and previous pool of candidates for different roles.
-    The purposes of this tool are storing data/details of the :term:`applicants<Applicants>`, editing, and updating :term:`candidates<Candidates>`’ profile,
+    The purposes of this tool are :term:`Storing Data`/details of the :term:`applicants<Applicants>`, editing, and updating :term:`candidates<Candidates>`’ profile,
     retrieving of profiles, and  validating :term:`applicants<Applicants>`’ history.
 
 Recruitment Interview:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     :term:`Applicants` will be interviewed by Recuiters, and in the future, by clients. Their interview statuses will be saved in
-    the database associated with this tool.
+    the :term:`Database` associated with this tool.
 
 Interview Sheet:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,12 +30,12 @@ Architecture Diagram:
 .. image:: ArchitectureDiagram.jpeg
    :alt: Architecture Diagram
 
-Wireframes:
+:term:`Wireframes<Wireframe>`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Wireframe information will be determined soon
+    :term:`Wireframe` information will be determined soon
 
-UI:
+:term:`User Interface`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     - Users (Recruiters) must be able to manually input the details of the candidates or upload candidates’ profile to this tool
@@ -58,4 +58,4 @@ UI:
     - The searched profiles must be presented in box with 3 lines (Name, Last position & Company, and Top skills).
 
 .. image:: SampleUI.png
-   :alt: Sample UI
+   :alt: Sample :term:`User Interface`

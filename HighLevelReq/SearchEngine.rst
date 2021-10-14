@@ -1,6 +1,6 @@
 .. _SearchEngine:
 
-Search Engine Requirements
+:term:`Search Engine` Requirements
 =================================================================================================================================
 
 .. toctree::

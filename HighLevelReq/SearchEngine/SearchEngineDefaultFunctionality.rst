@@ -1,6 +1,6 @@
 .. _SearchEngineDefaultFunctionality:
 
-Search Engine Default Functionality
+:term:`Search Engine` Default Functionality
 =================================================================================================================================
 
 Description:
