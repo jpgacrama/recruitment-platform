@@ -24,27 +24,13 @@ Description:
 
         actor "Recruiter" as Recruiter
         participant "UI" as UI
-        participant "OCR" as OCR
         participant "Database" as Database
 
-        alt OCR is used to input data
-            Recruiter -> UI: Upload file
-            UI -> OCR: Send File to OCR
-            OCR -> OCR: Decode Input File
-            OCR -> UI: Populate Corresponding Fields
+        Recruiter  -> UI: Enter Data to website
 
-            note over UI
-                Data is displayed in the website as you type
-            end note
-
-        else
-
-            Recruiter  -> UI: Enter Data to website
-
-            note over UI
-                Data is displayed in the website as you type
-            end note
-        end
+        note over UI
+            Data is displayed in the website as you type
+        end note
 
         Recruiter -> UI: Click Save
         UI -> UI: Perform Data Validation
