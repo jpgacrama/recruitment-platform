@@ -64,5 +64,4 @@ References to High-Level Requirements:
     - :ref:`FormatForDates`
     - :ref:`FormatForEmail`
     - :ref:`FormatForTelephoneNumbers`
-    - :ref:`InputsComingFromOCRIsSupported`
     - :ref:`UserCanInputCandidateProfile`
