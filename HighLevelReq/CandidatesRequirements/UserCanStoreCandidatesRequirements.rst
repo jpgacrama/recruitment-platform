@@ -1,7 +1,9 @@
-.. _PlatformCanStoreCandidatesRequirements:
+.. _UserCanStoreCandidatesRequirements:
 
-Recruitment Platform should be able to store Candidates' Requirements
+User should be able to store Candidates' Requirements
 =================================================================================================================================
+
+``UserCanStoreCandidatesRequirements``
 
 Description:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -15,4 +17,4 @@ This Recruitment Platform should be able to store the following Candidates' Requ
 Use Case:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- :ref:`InputCandidateProfile`
+- :ref:`StoreCandidateRequirements`
