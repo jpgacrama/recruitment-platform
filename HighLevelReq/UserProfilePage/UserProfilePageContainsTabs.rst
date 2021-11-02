@@ -1,17 +1,16 @@
-.. _InputsComingFromOCRIsSupported:
+.. _UserProfilePageContainsTabs:
 
-Inputs coming from :term:`OCR` is Supported
+User Profile Page Contains Tabs
 =================================================================================================================================
 
 Description:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-User should be able to populate information about the candidate automatically by using :term:`OCR`
+User Profile Page consists of tabs depending on the category of the information.
 
-Mock-up:
+Wireframe:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- `Link to Mockup <https://docs.google.com/spreadsheets/d/15JdRpaZdsIaJpi35PfBCYXX3PfTBGZaBKae5tH3xdiM/edit#gid=1436297217>`_
-
+- TBD. Add finalized wireframe here
 
 Use Case:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
