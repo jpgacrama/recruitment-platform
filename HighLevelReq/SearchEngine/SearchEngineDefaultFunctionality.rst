@@ -21,4 +21,4 @@ Related Requirements:
 Use Case:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- :ref:`InputCandidateProfile`
+- :ref:`SearchBasedOnCriteria`
