@@ -1,7 +1,7 @@
 .. This is A COPY OF the main index.rst file which is rendered into the landing page of your documentation.
    Follow the inline instructions to configure this for YOUR next project.
 
-Welcome to Recruitment Platform's documentation !
+Welcome to Recruitment Platform's documentation
 =========================================================
 |
 
