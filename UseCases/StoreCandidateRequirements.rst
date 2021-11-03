@@ -47,10 +47,10 @@ Exceptions:
 Notes and Issues:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    See the list of Requirements :ref:`here<UserCanStoreCandidatesRequirements>`
+    See the list of Requirements :ref:`here<UserCanStorePreOnboardingRequirements>`
 
 References to High-Level Requirements:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    - :ref:`UserCanStoreCandidatesRequirements`
+    - :ref:`UserCanStorePreOnboardingRequirements`
     - :ref:`UserProfileShowsRequirementsAlreadySubmitted`

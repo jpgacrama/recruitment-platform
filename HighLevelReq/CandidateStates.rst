@@ -1,10 +1,10 @@
-.. _CandidatesRequirements:
+.. _CandidateStates:
 
-Candidates' Requirements
+Candidate States
 =================================================================================================================================
 
 .. toctree::
     :maxdepth: 1
     :glob:
 
-    CandidatesRequirements/*
+    CandidateStates/*
