@@ -1,12 +1,13 @@
 .. This is A COPY OF the main index.rst file which is rendered into the landing page of your documentation.
    Follow the inline instructions to configure this for YOUR next project.
 
-Welcome to Recruitment Platform's documentation
+Welcome to Recruitment and Onboarding Platform's documentation
 =========================================================
 |
 
 Contains the specifications for creating Flexi's internal Recruitment Platform
-The source code is available `here <https://gitlab.com/jpgacrama/recruitment-platform>`_.
+The source for this specifications is available
+`here <https://github.com/jayaregalinada/flexisourceit-recruitment-docs>`_.
 
 |
 
