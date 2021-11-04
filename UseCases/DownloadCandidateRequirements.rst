@@ -1,14 +1,14 @@
-.. _StoreCandidateRequirements:
+.. _DownloadCandidateRequirements:
 
-UC: Store Candidates' Requirements
+UC: Download Candidate's Requirements
 =================================================================================================================================
 
-``StoreCandidateRequirements``
+``DownloadCandidateRequirements``
 
 Triggers:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    User wants to upload Candidates' Requirements to the Recruitment Platform
+    User wants to download Candidate's Requirements to the Recruitment Platform
 
 Pre-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,18 +26,31 @@ Description:
         participant "UI" as UI
         participant "Database" as Database
 
-        Recruiter  -> UI: Click button to upload Candidates' Requirements
-        UI -> Recruiter: Show option to select the file for upload
-        Recruiter -> UI: Select the file and click Upload
+        Recruiter  -> UI: Click button to download Candidate's Requirements
+        UI -> Recruiter: Show option to select the file for download
+        Recruiter -> UI: Select the file and click Download
 
-        UI -> Database: Store file to Database
+        UI -> Database: Download file to Database
+        
+        alt Download is Successful
+            Database -> UI: //Download Successful//
+            UI -> Recruiter: //Download Successful//
+        else
+            Database -> UI: //Download Unsuccessful//
+            UI -> Recruiter: //Download Unsuccessful//
+
+            note over Database, UI
+                Database may have many types of errors. 
+                The error cases we support still needs to be determined
+            end note
+        end
 
     @enduml
 
 Post-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Candidates' Requirements are now stored in :term:`Database`.
+    Candidate's Requirements are downloaded successfully.
 
 Exceptions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,10 +60,11 @@ Exceptions:
 Notes and Issues:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    See the list of Requirements :ref:`here<UserCanStorePreOnboardingRequirements>`
+    None
 
 References to High-Level Requirements:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    - :ref:`UserCanStorePreOnboardingRequirements`
+    - :ref:`StoreApplicationDocuments`
+    - :ref:`StorePreOnboardingRequirements`
     - :ref:`UserProfileShowsRequirementsAlreadySubmitted`
