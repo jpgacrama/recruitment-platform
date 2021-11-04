@@ -8,12 +8,12 @@ List of Candidate States
 Description:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following are Candidate's states as displayed in this Recruitment Platform
+The following candidate state's are displayed in this recruitment platform:
 
     1. Initial Recruitment Interview
     2. Request Applicant to submit Recruitment-related Requirements -> Link to items 1 and 2 only
     3. In Process. This could mean any of the following things, in any order:
-   
+
         a. Technical Interview
         b. Initial Client Interview
         c. Technical test
@@ -24,8 +24,9 @@ The following are Candidate's states as displayed in this Recruitment Platform
     5. Request Applicant to submit Remaining Requirements -> Link to 3 onwards
     6. HR Onboarding
 
-Use Case:
+Wireframe:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. todo::
-    Use case for showing candidate state should be made?
+
+    Add link to wireframe here

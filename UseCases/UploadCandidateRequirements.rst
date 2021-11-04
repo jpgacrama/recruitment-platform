@@ -1,6 +1,6 @@
 .. _UploadCandidateRequirements:
 
-UC: Upload Candidates' Requirements
+UC: Upload Candidate's Requirements
 =================================================================================================================================
 
 ``UploadCandidateRequirements``
@@ -8,7 +8,7 @@ UC: Upload Candidates' Requirements
 Triggers:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    User wants to upload Candidates' Requirements to the Recruitment Platform
+    User wants to upload Candidate's Requirements to the Recruitment Platform
 
 Pre-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,7 +26,7 @@ Description:
         participant "UI" as UI
         participant "Database" as Database
 
-        Recruiter  -> UI: Click button to upload Candidates' Requirements
+        Recruiter  -> UI: Click button to upload Candidate's Requirements
         UI -> Recruiter: Show option to select the file for upload
         Recruiter -> UI: Select the file and click Upload
 
@@ -50,7 +50,7 @@ Description:
 Post-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Candidates' Requirements are now stored in :term:`Database`.
+    Candidate's Requirements are now stored in :term:`Database`.
 
 Exceptions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

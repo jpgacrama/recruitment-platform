@@ -1,6 +1,6 @@
 .. _StorePreOnboardingRequirements:
 
-User should be able to store Candidates' Pre-Onboarding Documents
+User should be able to store Candidate's Pre-Onboarding Documents
 =================================================================================================================================
 
 ``StorePreOnboardingRequirements``

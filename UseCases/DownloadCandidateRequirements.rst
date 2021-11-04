@@ -1,6 +1,6 @@
 .. _DownloadCandidateRequirements:
 
-UC: Download Candidates' Requirements
+UC: Download Candidate's Requirements
 =================================================================================================================================
 
 ``DownloadCandidateRequirements``
@@ -8,7 +8,7 @@ UC: Download Candidates' Requirements
 Triggers:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    User wants to download Candidates' Requirements to the Recruitment Platform
+    User wants to download Candidate's Requirements to the Recruitment Platform
 
 Pre-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,18 +26,31 @@ Description:
         participant "UI" as UI
         participant "Database" as Database
 
-        Recruiter  -> UI: Click button to download Candidates' Requirements
+        Recruiter  -> UI: Click button to download Candidate's Requirements
         UI -> Recruiter: Show option to select the file for download
-        Recruiter -> UI: Select the file and click download
+        Recruiter -> UI: Select the file and click Download
 
-        UI -> Database: Store file to Database
+        UI -> Database: Download file to Database
+        
+        alt Download is Successful
+            Database -> UI: //Download Successful//
+            UI -> Recruiter: //Download Successful//
+        else
+            Database -> UI: //Download Unsuccessful//
+            UI -> Recruiter: //Download Unsuccessful//
+
+            note over Database, UI
+                Database may have many types of errors. 
+                The error cases we support still needs to be determined
+            end note
+        end
 
     @enduml
 
 Post-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Candidates' Requirements are now stored in :term:`Database`.
+    Candidate's Requirements are downloaded successfully.
 
 Exceptions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
