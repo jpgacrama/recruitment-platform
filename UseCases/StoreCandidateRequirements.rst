@@ -31,6 +31,19 @@ Description:
         Recruiter -> UI: Select the file and click Upload
 
         UI -> Database: Upload file to Database
+        
+        alt Upload is Successful
+            Database -> UI: //Upload Successful//
+            UI -> Recruiter: //Upload Successful//
+        else
+            Database -> UI: //Upload Unsuccessful//
+            UI -> Recruiter: //Upload Unsuccessful//
+
+            note over Database, UI
+                Database may have many types of errors. 
+                The error cases we support still needs to be determined
+            end note
+        end
 
     @enduml
 

@@ -1,6 +1,6 @@
 .. _StoreApplicationDocuments:
 
-User should be able to store Candidates' Pre-Onboarding Documents
+User should be able to store Candidates' Application-related Documents
 =================================================================================================================================
 
 ``StoreApplicationDocuments``
@@ -8,7 +8,7 @@ User should be able to store Candidates' Pre-Onboarding Documents
 Description:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This Recruitment Platform should be able to store the following Candidates' Requirements:
+This Recruitment Platform should be able to store the following Candidates' Application-related Documents:
 
     1. Application Sheet
     2. Payslip (All other filetypes and also supports Excel)
