@@ -1,6 +1,6 @@
 .. _CandidateRequirements:
 
-Candidates' Requirements
+Candidates Requirements
 =================================================================================================================================
 
 .. toctree::

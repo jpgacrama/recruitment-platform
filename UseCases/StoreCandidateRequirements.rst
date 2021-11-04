@@ -1,9 +1,9 @@
-.. _StoreCandidateRequirements:
+.. _UploadCandidateRequirements:
 
-UC: Store Candidates' Requirements
+UC: Upload Candidates' Requirements
 =================================================================================================================================
 
-``StoreCandidateRequirements``
+``UploadCandidateRequirements``
 
 Triggers:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,7 +30,7 @@ Description:
         UI -> Recruiter: Show option to select the file for upload
         Recruiter -> UI: Select the file and click Upload
 
-        UI -> Database: Store file to Database
+        UI -> Database: Upload file to Database
 
     @enduml
 
@@ -47,10 +47,11 @@ Exceptions:
 Notes and Issues:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    See the list of Requirements :ref:`here<UserCanStorePreOnboardingRequirements>`
+    None
 
 References to High-Level Requirements:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    - :ref:`UserCanStorePreOnboardingRequirements`
+    - :ref:`StoreApplicationDocuments`
+    - :ref:`StorePreOnboardingRequirements`
     - :ref:`UserProfileShowsRequirementsAlreadySubmitted`

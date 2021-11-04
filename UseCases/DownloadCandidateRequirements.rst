@@ -8,7 +8,7 @@ UC: Download Candidates' Requirements
 Triggers:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    User wants to upload Candidates' Requirements to the Recruitment Platform
+    User wants to download Candidates' Requirements to the Recruitment Platform
 
 Pre-conditions:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,9 +26,9 @@ Description:
         participant "UI" as UI
         participant "Database" as Database
 
-        Recruiter  -> UI: Click button to upload Candidates' Requirements
-        UI -> Recruiter: Show option to select the file for upload
-        Recruiter -> UI: Select the file and click Upload
+        Recruiter  -> UI: Click button to download Candidates' Requirements
+        UI -> Recruiter: Show option to select the file for download
+        Recruiter -> UI: Select the file and click download
 
         UI -> Database: Store file to Database
 
@@ -47,10 +47,11 @@ Exceptions:
 Notes and Issues:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    See the list of Requirements :ref:`here<UserCanStorePreOnboardingRequirements>`
+    None
 
 References to High-Level Requirements:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    - :ref:`UserCanStorePreOnboardingRequirements`
+    - :ref:`StoreApplicationDocuments`
+    - :ref:`StorePreOnboardingRequirements`
     - :ref:`UserProfileShowsRequirementsAlreadySubmitted`

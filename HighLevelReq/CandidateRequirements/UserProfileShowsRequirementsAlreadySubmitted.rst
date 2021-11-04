@@ -13,4 +13,4 @@ Information about Candidates' Requirements should be shown on the User Profile P
 Use Case:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- :ref:`StoreCandidateRequirements`
+- :ref:`UploadCandidateRequirements`

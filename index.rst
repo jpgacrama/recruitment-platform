@@ -2,7 +2,7 @@
    Follow the inline instructions to configure this for YOUR next project.
 
 Welcome to Recruitment and Onboarding Platform's documentation
-=========================================================
+===============================================================
 |
 
 Contains the specifications for creating Flexi's internal Recruitment Platform

@@ -1,9 +1,9 @@
-.. _UserCanStoreCandidatesRequirements:
+.. _StoreApplicationDocuments:
 
 User should be able to store Candidates' Pre-Onboarding Documents
 =================================================================================================================================
 
-``UserCanStoreCandidatesRequirements``
+``StoreApplicationDocuments``
 
 Description:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,5 +24,5 @@ Note:
 Use Case:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- :ref:`StoreCandidateRequirements`
+- :ref:`UploadCandidateRequirements`
 - :ref:`DownloadCandidateRequirements`
