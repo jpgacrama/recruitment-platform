@@ -25,7 +25,6 @@ This Recruitment Platform should be able to store the following Pre-Onboarding R
     4. Welcome Message Questionnaire
     5. Scanned Copy of Photo
     6. Personal Internet and Laptop Specs
-    7. Personal Bank account details
 
 Note:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
