@@ -24,9 +24,9 @@ The following candidate state's are displayed in this recruitment platform:
     5. Request Applicant to submit Remaining Requirements -> Link to 3 onwards
     6. HR Onboarding
 
-Wireframe:
+:term:`Wireframe`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. todo::
 
-    Add link to wireframe here
+    Add Link to Wireframe here

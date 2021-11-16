@@ -8,10 +8,10 @@ Description:
 
 User Should be able to input Candidate Profiles.
 
-Mock-up:
+:term:`Wireframe`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- `Link to Mockup <https://docs.google.com/spreadsheets/d/15JdRpaZdsIaJpi35PfBCYXX3PfTBGZaBKae5tH3xdiM/edit#gid=1436297217>`_
+- `Link to Wireframe <https://docs.google.com/spreadsheets/d/15JdRpaZdsIaJpi35PfBCYXX3PfTBGZaBKae5tH3xdiM/edit#gid=1436297217>`_
 
 
 Use Case:

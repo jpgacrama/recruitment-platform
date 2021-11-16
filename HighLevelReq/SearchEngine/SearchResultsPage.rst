@@ -6,11 +6,11 @@ Search Results Page
 Description:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Search Results should look like the one shown in the Mock-up
+Search Results should look like the one shown in the :term:`Wireframe`
 
-Mock-up:
+:term:`Wireframe`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- `Link to Mockup <https://docs.google.com/spreadsheets/d/15JdRpaZdsIaJpi35PfBCYXX3PfTBGZaBKae5tH3xdiM/edit#gid=2097539945>`_
+- `Link to Wireframe <https://docs.google.com/spreadsheets/d/15JdRpaZdsIaJpi35PfBCYXX3PfTBGZaBKae5tH3xdiM/edit#gid=2097539945>`_
 
 
 Use Case:
